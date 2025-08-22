@@ -1,0 +1,110 @@
+.agenda-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.agenda-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #ff6f61;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.agenda-search {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.formulario {
+  background: #fdfdfd;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.formulario input {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.btn-agregar {
+  width: 100%;
+  padding: 10px;
+  background: #4caf50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-agregar:hover {
+  background: #45a049;
+}
+
+.lista-contactos {
+  margin-top: 20px;
+}
+
+.contacto-card {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+  position: relative;
+}
+
+.contacto-info p {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.label.nombre { color: #e91e63; }
+.label.numero { color: #fbc02d; }
+.label.direccion { color: #1976d2; }
+.label.email { color: #ff5722; }
+
+.btn-eliminar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #f44336;
+  border: none;
+  padding: 6px 12px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-eliminar:hover {
+  background: #d32f2f;
+}
+
+.vacio {
+  text-align: center;
+  font-size: 16px;
+  color: #777;
+  font-style: italic;
+}

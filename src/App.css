@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.App-header {
+  background: #282c34;
+  padding: 15px;
+  color: white;
+}
+
+nav button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.perfil {
+  margin-top: 20px;
+}
+
+.personaje-img {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.agenda {
+  margin-top: 20px;
+}
+
+.agenda input {
+  margin: 5px;
+  padding: 8px;
+}
+
+.agenda button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.agenda ul {
+  list-style: none;
+  padding: 0;
+}
+
+.agenda li {
+  margin: 8px 0;
+}
